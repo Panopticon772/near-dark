@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(36, 36, 36);
+    color: rgb(195, 195, 195);
+    font-family: "Noto Sans SC", sans-serif;
+}
+
+img {
+    width: 369px;
+    height: 210px;
+}
+
+.navbar {
+    font-size: 1.125em;
+    background: rgb(10, 10, 10);
+    border-bottom: 1px solid rgb(82, 207, 120);
+    padding-bottom: 0.625em;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.375em;
+    margin-top: 0.625em;
+    margin-left: 1.25em;
+}
+
+.special-text {
+    color: rgb(82, 207, 120);
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 0.9375em auto;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 0.5em;
+    right: 1.0em;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 1.5em;
+}
+
+/* toggle active class in main nav */
+.active {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+.large-space {
+    height: 1.0em;
+}
+
+.larger-space {
+    height: 2.0em;
+}
+
+.flex-container {
+    color: #fff;
+}
+
+.class {
+    margin: 1.0em;
+    background: rgb(10, 10, 10);
+    border: 1px solid rgb(82, 207, 120);
+}
+
+.class:hover {
+    border: 1px solid rgb(159, 241, 184);;
+}
+
+.class:hover h2{
+    color: #fff;
+}
+
+.class--info {
+    border-top: 1px solid rgb(82, 207, 120, 0.3);
+    padding: 1.0em;
+}
+
+.class--info-name {
+    padding-bottom: 1.0em;
+}
+
+.class--info-name h2 {
+    color: rgb(82, 207, 120);;
+}
+
+footer {
+    font-size: 1.125em;
+    color: #fff;
+    background: rgb(10, 10, 10);
+    border-top: 1px solid rgb(82, 207, 120);
+    padding: 0.625em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    img {
+        width: 369px;
+        height: 325px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 4.0em;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 1.875em;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 2.5em;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+   .navbar-toggle {
+       display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgb(82, 207, 120, 1);
+    }
+
+    .flex-container {
+        color: #fff;
+        display: flex;
+    }
+
+    .class {
+        display: flex;
+        flex: 1 1 50%;
+        margin: 1.0em;
+        border: 1px solid rgb(82, 207, 120);
+    }
+}
