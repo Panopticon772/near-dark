@@ -18,3 +18,4 @@ const back_to_top = () => {
 getFooterBtn.addEventListener("click", () => {
     back_to_top();
 });
+

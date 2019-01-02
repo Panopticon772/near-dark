@@ -97,7 +97,7 @@ h2 {
 }
 
 .class:hover {
-    border: 1px solid rgb(159, 241, 184);;
+    border: 1px solid rgb(159, 241, 184);
 }
 
 .class:hover h2{
@@ -120,28 +120,32 @@ footer {
     color: #fff;
     background: rgb(10, 10, 10);
     border-top: 1px solid rgb(82, 207, 120);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #footer-btn {
-    padding: 0.2rem;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgba(82, 207, 120, 1);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-bottom: 0.5rem;
     cursor: pointer;
+}
+
+#footer-btn:hover {
+    background: rgb(159, 241, 184);
 }
 
 .social {
     padding: 1.0rem;
-}
-
-#coffee-music {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-icons {
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -155,7 +159,6 @@ footer {
 .coffee-music--green-text {
     color: rgb(82, 207, 120);
 }
-
 
 /* media queries */
 @media screen and (min-width: 768px) {
@@ -209,9 +212,5 @@ footer {
         display: flex;
         flex: 1 1 50%;
         margin: 1.0em;
-    }
-
-    #footer-btn {
-        display: none;
     }
 }
