@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(36, 36, 36);
+    background: rgb(28, 28, 28);
     color: rgb(195, 195, 195);
     font-family: "Noto Sans SC", sans-serif;
 }
@@ -97,6 +97,7 @@ h2 {
 
 .top-space {
     padding-top: 0.5rem;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .class {
@@ -123,16 +124,20 @@ h2 {
 
 .class--info-description {
     font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
 }
 
 .class--info-name h2 {
-    color: rgb(82, 207, 120);;
+    color: rgb(82, 207, 120);
+    font-weight: 700;
 }
 
 footer {
     color: #fff;
     background: rgb(10, 10, 10);
     border-top: 1px solid rgb(82, 207, 120);
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
 }
 
 #footer-btn {
@@ -173,44 +178,11 @@ footer {
     color: rgb(82, 207, 120);
 }
 
-/* media queries */
+
+
+
+/* MEDIA QUERIES 768 - 1200px */
 @media screen and (min-width: 768px) {
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 4.0em;
-        align-items: center;
-    }
-
-    .main-nav {
-        display: flex;
-        margin-right: 1.875em;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .main-nav li {
-        margin: 0;
-    }
-
-    .nav-links {
-        margin-left: 2.5em;
-    }
-
-    .logo {
-        margin-top: 0;
-    }
-
-   .navbar-toggle {
-       display: none;
-    }
-
-    .logo:hover,
-    .nav-links:hover {
-        color: rgb(82, 207, 120, 1);
-    }
 
     .flex-container {
         color: #fff;
@@ -226,18 +198,19 @@ footer {
     }
 }
 
+/* MEDIA QUERIES 1200px+ */
 @media screen and (min-width: 1200px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
-        height: 4.0em;
+        height: 4.0rem;
         align-items: center;
     }
 
     .main-nav {
         display: flex;
-        margin-right: 1.875em;
+        margin-right: 1.875rem;
         flex-direction: row;
         justify-content: flex-end;
     }
@@ -247,7 +220,7 @@ footer {
     }
 
     .nav-links {
-        margin-left: 2.5em;
+        margin-left: 2.5rem;
     }
 
     .logo {
@@ -275,6 +248,6 @@ footer {
     .class {
         display: flex;
         flex: 1 1 50%;
-        margin: 1.0em;
+        margin: 1.0rem;
     }
 }
