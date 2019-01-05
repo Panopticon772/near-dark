@@ -38,6 +38,15 @@ body {
     color: rgb(82, 207, 120);
 }
 
+#grad {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(159,241,184,1) 35%, rgba(82,207,120,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 1px transparent, 0 1px 1px rgba(82,207,120,1);
+}
+
 .nav-links,
 .logo {
     text-decoration: none;
@@ -76,10 +85,11 @@ body {
     text-align: center;
     margin: 1.0rem;
     color: #fff;
+    text-shadow: 0 0 1px transparent, 
+                 0 0 5px rgba(10, 10, 10,.8);
 }
 
 #title--main {
-    text-shadow: 2px 1px 1px rgb(10, 10, 10);
     font-weight: 700;
 }
 
@@ -241,6 +251,12 @@ footer {
     .logo:hover,
     .nav-links:hover {
         color: rgb(82, 207, 120, 1);
+    }
+
+    .responsive-img {
+        width: 100%;
+        max-width: 375px;
+        height: auto;
     }
 
     .flex-container {

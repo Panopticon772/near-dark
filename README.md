@@ -1,6 +1,8 @@
 # near-dark
 As a fan of RPG games I wanted to make a world page for an imaginary game.
 
+Made with HTML, CSS, and JavaScript. Font Awesome for Icons.
+
 Thanks to these artists for these great photos:
 
 Fog Forest - Jaymantri - https://www.pexels.com/photo/nature-forest-trees-fog-4827/
