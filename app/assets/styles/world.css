@@ -80,6 +80,7 @@ body {
 
 #title--main {
     font-weight: 700;
+    font-size: 3.0rem;
 }
 
 #title--sub {
@@ -114,7 +115,7 @@ h2 {
 }
 
 .class:hover {
-    border: 1px solid rgb(159, 241, 184);
+    border: 2px solid rgb(159, 241, 184);
 }
 
 .class:hover h2{
@@ -131,6 +132,7 @@ h2 {
 
 .class--info-description {
     font-family: "Source Sans Pro", sans-serif;
+    
 }
 
 .class--info-name h2 {
