@@ -3,6 +3,12 @@ As a fan of RPG games I wanted to make a world page for an imaginary game.
 
 Made with HTML, CSS, and JavaScript. Font Awesome for Icons.
 
+# What I learned
+1. Flexbox
+2. Responsive design
+3. Media Queries
+4. Navbar design
+
 Thanks to these artists for these great photos:
 
 Fog Forest - Jaymantri - https://www.pexels.com/photo/nature-forest-trees-fog-4827/
